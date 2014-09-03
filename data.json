@@ -1,17 +1,6 @@
 {
   "interactions": [
-    {
-      "layers": {
-        "layer-0": {
-          "cartocss": "#ifl_2000 {polygon-opacity: 0.7; polygon-fill: #136400; line-width: 0; line-opacity: 1; }", 
-          "sql": "SELECT * FROM ifl_2000",
-          "interactivity": "cartodb_id"
-        }
-      },
-      "name": "a",
-      "className": "test-1",
-      "text": "Intact Forest Landscapes 2000"
-    },
+    
 
     {
       "layers": {
@@ -24,7 +13,20 @@
       "name": "a",
       "className": "test-2",
       "text": "Intact Forest Landscapes 2013"
+    },
+    {
+      "layers": {
+        "layer-0": {
+          "cartocss": "#ifl_2000 {polygon-opacity: 0.7; polygon-fill: #136400; line-width: 0; line-opacity: 1; }", 
+          "sql": "SELECT * FROM ifl_2000",
+          "interactivity": "cartodb_id"
+        }
+      },
+      "name": "a",
+      "className": "test-1",
+      "text": "Intact Forest Landscapes 2000"
     }
+
   ],
 
   "vizjson": "http://wri-01.cartodb.com/api/v2/viz/e03a699e-333c-11e4-a042-0e10bcd91c2b/viz.json"

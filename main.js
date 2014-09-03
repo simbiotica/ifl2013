@@ -154,9 +154,9 @@
         .text(this.data.text)
         .attr('href', '#/' + this.data.text.replace(/ /gi,'-'));
 
-      if (this.data.className=='test-1') {
+      if (this.data.className=='test-2') {
         $a.addClass('selected');
-        $('#deg').hide();
+        //$('#deg').hide();
       }
 
       this.$el.append($a);
