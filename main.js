@@ -94,6 +94,7 @@
         var a = new FiltersItem({ data: buttons[i] });
         a.bind('change', this._triggerChange, this)
         self.addView(a);
+        if (i==0)$(a).addClass('selected');
         self.$('ul').append(a.render().el);
       }
 

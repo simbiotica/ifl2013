@@ -14,7 +14,7 @@
   #filters {
     position:absolute;
     top:20px; right:20px;
-    width:147px;
+    /*width:147px;*/
     z-index:10;
     background:white;
     border-radius:3px;
