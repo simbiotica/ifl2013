@@ -20,7 +20,7 @@
   })
 
   //set first option as selected
-  $(window).load(function(){$('.test-1').addClass('selected');});
+  //$(window).load(function(){$('.test-1').addClass('selected');});
 
 
 
@@ -153,6 +153,8 @@
         .addClass(this.data.className)
         .text(this.data.text)
         .attr('href', '#/' + this.data.text.replace(/ /gi,'-'));
+
+      if (this.data.className='test-1') $a.addClass('selected')
 
       this.$el.append($a);
 
