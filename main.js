@@ -15,7 +15,7 @@
     });
 
     window.template = new Template({ el: document.body });
-    $
+    
 
   })
 
