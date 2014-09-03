@@ -6,7 +6,7 @@
     padding:0;
   }
 
-  a {font-size:13px; color:#2483B4; text-decoration:none;}
+  a {font-size:13px; color:#055D00; text-decoration:none;}
   a.selected {background:#F7F7F7; color:#333;}
   a:hover {color:#333;}
   a.selected:hover {color:#333; cursor:default;}
