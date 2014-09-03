@@ -154,7 +154,7 @@
         .text(this.data.text)
         .attr('href', '#/' + this.data.text.replace(/ /gi,'-'));
 
-      if (this.data.className='test-1') $a.addClass('selected')
+      if (this.data.className=='test-1') $a.addClass('selected')
 
       this.$el.append($a);
 
