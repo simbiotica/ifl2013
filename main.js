@@ -15,7 +15,7 @@
     });
 
     window.template = new Template({ el: document.body });
-    $('.test-1').addClass('selected');
+    $
 
   })
 
