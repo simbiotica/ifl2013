@@ -15,6 +15,7 @@
     });
 
     window.template = new Template({ el: document.body });
+    $('.test-1').addClass('selected');
 
   })
 
@@ -81,7 +82,7 @@
     initialize: function() {
       _.bindAll(this, 'render');
       this._getActions();
-      $('.test-1').addClass('selected');
+
     },
 
     render: function(data) {
