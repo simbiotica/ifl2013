@@ -15,9 +15,12 @@
     });
 
     window.template = new Template({ el: document.body });
-    
+
 
   })
+
+  //set first option as selected
+  $(window).load(function(){$('.test-1').addClass('selected');});
 
 
 
