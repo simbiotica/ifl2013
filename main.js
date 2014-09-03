@@ -154,7 +154,10 @@
         .text(this.data.text)
         .attr('href', '#/' + this.data.text.replace(/ /gi,'-'));
 
-      if (this.data.className=='test-1') $a.addClass('selected')
+      if (this.data.className=='test-1') {
+        $a.addClass('selected');
+        $('#deg').hide();
+      }
 
       this.$el.append($a);
 
@@ -164,6 +167,11 @@
     _onClick: function(e) {
       this.killEvent(e);
       this.trigger('change', this.data, this);
+      if (this.data.className=='test-1') {
+        $('#deg').hide();
+      }else{
+        $('#deg').show();
+      }
     }
 
   })
